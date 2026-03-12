@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  browser-worker:
+    image: ubuntu:24.04
+    container_name: openclaw-browser-worker
+    shm_size: "1gb"
+    volumes:
+      - /opt/openclaw:/opt/openclaw
+      - /opt/openclaw/profiles:/opt/openclaw/profiles
+    ports:
+      - "9222:9222"    # Chrome DevTools Protocol
+      - "6080:6080"    # noVNC (可选)
+    environment:
+      - DISPLAY=:99
+    command: ["/bin/bash", "-lc", "/opt/openclaw/bin/start-display.sh && /opt/openclaw/bin/start-browser.sh && tail -f /opt/openclaw/runtime/logs/chromium.log"]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "/opt/openclaw/bin/healthcheck.sh"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # 可选：noVNC 服务（用于人工远程接管）
+  novnc:
+    image: javanile/novnc
+    container_name: openclaw-novnc
+    ports:
+      - "6081:8080"
+    environment:
+      - REMOTE_HOST=browser-worker
+      - REMOTE_PORT=5900
+    depends_on:
+      - browser-worker
+    profiles:
+      - with-novnc
