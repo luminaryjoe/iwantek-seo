@@ -1,0 +1,67 @@
+🚀 Daily Reddit Digest Ready
+
+Found 8 high-intent threads (last 24 hours):
+
+1. r/CallCenterLife - "What headset should I buy for 50 agents?"
+   - Upvotes: 45
+   - Comments: 23
+   - Intent: High (buying decision)
+   - Draft: Ready for approval
+   - Priority: P0
+
+2. r/headphones - "Best office headset under $50?"
+   - Upvotes: 128
+   - Comments: 67
+   - Intent: High (price-sensitive)
+   - Draft: Ready for approval
+   - Priority: P0
+
+3. r/WorkFromHome - "Headset keeps breaking, help!"
+   - Upvotes: 89
+   - Comments: 34
+   - Intent: High (pain point)
+   - Draft: Ready for approval
+   - Priority: P0
+
+4. r/ITSupport - "Need recommendation for call center equipment"
+   - Upvotes: 34
+   - Comments: 19
+   - Intent: Medium (research phase)
+   - Draft: Ready for approval
+   - Priority: P1
+
+5. r/VOIP - "USB vs 3.5mm for desk phones?"
+   - Upvotes: 23
+   - Comments: 15
+   - Intent: High (technical decision)
+   - Draft: Ready for approval
+   - Priority: P1
+
+6. r/CustomerService - "What do you use for 8-hour shifts?"
+   - Upvotes: 156
+   - Comments: 89
+   - Intent: High (comfort focus)
+   - Draft: Ready for approval
+   - Priority: P0
+
+7. r/RemoteWork - "Best headset for Teams calls?"
+   - Upvotes: 234
+   - Comments: 112
+   - Intent: High (platform-specific)
+   - Draft: Ready for approval
+   - Priority: P0
+
+8. r/MicrosoftTeams - "Headset recommendation for Teams?"
+   - Upvotes: 67
+   - Comments: 28
+   - Intent: High (certification needed)
+   - Draft: Ready for approval
+   - Priority: P1
+
+Summary:
+- Total threads found: 8
+- High priority (P0): 5
+- Medium priority (P1): 3
+- Estimated traffic potential: 2,400+ views
+
+Action Required: Review and approve drafts below.
