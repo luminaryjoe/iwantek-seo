@@ -1,0 +1,48 @@
+{
+  "brand_name": "Wantek",
+  "website": "https://www.iwantek.com",
+  "keywords": [
+    "call center headset",
+    "office headset",
+    "USB headset",
+    "noise canceling microphone",
+    "best headset for work",
+    "headset recommendation",
+    "Teams headset",
+    "Zoom headset",
+    "wireless headset",
+    "3.5mm headset"
+  ],
+  "schedule": "0 10,20 * * *",
+  "target_subreddits": [
+    "CallCenterLife",
+    "headphones",
+    "WorkFromHome",
+    "ITSupport",
+    "VOIP",
+    "techsupport",
+    "CustomerService",
+    "RemoteWork",
+    "MicrosoftTeams",
+    "Zoom"
+  ],
+  "product": {
+    "name": "Wantek H600 USB Headset",
+    "price": "$45",
+    "key_features": [
+      "USB connectivity",
+      "40dB noise canceling microphone",
+      "110g lightweight design",
+      "2-year warranty",
+      "Microsoft Teams certified"
+    ],
+    "target_audience": "call center managers, IT administrators, remote workers"
+  },
+  "disclosure": "I consult with Wantek, but recommendations are based on actual deployments",
+  "posting_rules": {
+    "max_posts_per_day": 3,
+    "min_interval_minutes": 30,
+    "value_first_ratio": 0.7,
+    "brand_mention_ratio": 0.3
+  }
+}
