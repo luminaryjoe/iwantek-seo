@@ -1,0 +1,86 @@
+{
+  "brand": {
+    "name": "Wantek",
+    "website": "https://www.iwantek.com",
+    "description": "Professional call center headsets and office headphones",
+    "logo": "https://www.iwantek.com/logo.png"
+  },
+  "content": {
+    "topics": [
+      "call center headsets",
+      "office equipment",
+      "remote work gear",
+      "cost optimization",
+      "TCO analysis",
+      "headset reviews"
+    ],
+    "hashtags": [
+      "#callcenter",
+      "#headset",
+      "#remotework",
+      "#officeequipment",
+      "#wantek",
+      "#productivity",
+      "#wfh",
+      "#customerservice"
+    ]
+  },
+  "platforms": {
+    "youtube": {
+      "enabled": true,
+      "channel_id": "",
+      "video_template": "product_review",
+      "posting_schedule": "weekly"
+    },
+    "reddit": {
+      "enabled": true,
+      "subreddits": ["CallCenterLife", "headphones", "WorkFromHome", "ITSupport"],
+      "posting_schedule": "daily"
+    },
+    "twitter": {
+      "enabled": true,
+      "handle": "@wantekofficial",
+      "posting_schedule": "3x_daily"
+    },
+    "facebook": {
+      "enabled": true,
+      "page_id": "",
+      "posting_schedule": "daily"
+    },
+    "instagram": {
+      "enabled": true,
+      "handle": "@wantekofficial",
+      "posting_schedule": "daily"
+    },
+    "threads": {
+      "enabled": true,
+      "handle": "@wantekofficial",
+      "posting_schedule": "daily"
+    },
+    "linkedin": {
+      "enabled": true,
+      "company_page": "",
+      "posting_schedule": "weekly"
+    },
+    "tiktok": {
+      "enabled": true,
+      "handle": "@wantekofficial",
+      "posting_schedule": "daily"
+    }
+  },
+  "automation": {
+    "best_posting_times": {
+      "weekdays": ["09:00", "12:00", "15:00", "18:00"],
+      "weekends": ["10:00", "14:00", "19:00"]
+    },
+    "content_calendar": {
+      "monday": "product_review",
+      "tuesday": "cost_saving_tips",
+      "wednesday": "user_testimonial",
+      "thursday": "comparison_post",
+      "friday": "industry_news",
+      "saturday": "behind_scenes",
+      "sunday": "weekly_roundup"
+    }
+  }
+}
